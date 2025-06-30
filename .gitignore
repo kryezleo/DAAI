@@ -1,6 +1,8 @@
 # Mac Stuff
 .DS_Store
 
+.idea/
+
 # Quarto in docs
 docs/.quarto/
 

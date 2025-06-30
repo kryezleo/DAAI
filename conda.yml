@@ -1,17 +1,13 @@
 name: sample
 channels:
-  - anaconda
-  - conda-forge
   - defaults
 dependencies:
   - bokeh
   - jupyterlab
   - pandas
+  - pip
   - python
   - scikit-learn
   - scikit-plot
   - seaborn
-  - pip
-  - pip:
-      - python-dotenv
-      - ydata-profiling
+prefix: /opt/anaconda3/envs/sample
